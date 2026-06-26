@@ -19,30 +19,28 @@ section is built, or a major plugin swap).
 - **Security:** Wordfence Security (active)
 - **Backup:** All-in-One WP Migration and Backup (active)
 
-## ⚠️ Security Note (flagged 2026-06-26)
+## ⚠️ Security Note (flagged 2026-06-26, resolved same day)
 
-A plugin called **"Acazycho"** (slug `acazycho`) is installed with a
-nonsensical description and an unrelated "vendor site" link
-(`the556.com`) that has no connection to the plugin's name. This is a
+A plugin called **"Acazycho"** (slug `acazycho`) was found installed with
+a nonsensical description and an unrelated "vendor site" link
+(`the556.com`) that had no connection to the plugin's name. This was a
 strong red flag for a malicious/spam plugin, possibly planted via a
 compromised account, vulnerable plugin, or supply-chain issue.
 
-- Status at time of writing: **inactive** (not currently running).
-- **Recommended action:** Do not activate it. Confirm with your
-  IT/security contact, run a full Wordfence scan, and if nothing
-  legitimate depends on it, delete it entirely from
-  **Plugins → Acazycho → Delete**. Also worth: rotate admin passwords and
-  review the **Users** list for any unfamiliar admin accounts, since
-  rogue plugins are often installed via a compromised login rather than
-  a vulnerability in this specific case.
+- It was **inactive** when found (not running), and was **deleted on
+  2026-06-26**.
+- **Still recommended:** run a full Wordfence scan, and review the
+  **Users** list for any unfamiliar admin accounts — rogue plugins are
+  often installed via a compromised login rather than a vulnerability in
+  the plugin itself, so the entry point may still need investigating even
+  though the plugin file is gone.
 
-## Installed Plugins (31 total)
+## Installed Plugins (30 total)
 
 Active unless noted otherwise.
 
 | Plugin | Role |
 |---|---|
-| ~~Acazycho~~ | **Suspicious — see security note above. Inactive.** |
 | All-in-One WP Migration and Backup | Site backup/migration |
 | BetterDocs | Knowledge base / FAQ pages |
 | Classic Editor | Enables old-style post editor alongside Elementor |
